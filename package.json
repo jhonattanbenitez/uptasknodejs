@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/jhonattanbenitez/uptasknodejs/issues"
   },
-  "homepage": "https://github.com/jhonattanbenitez/uptasknodejs#readme"
+  "homepage": "https://github.com/jhonattanbenitez/uptasknodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
