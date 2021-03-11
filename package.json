@@ -1,0 +1,23 @@
+{
+  "name": "uptasknodejs",
+  "version": "1.0.0",
+  "description": "Proyecto UpTask con Node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonattanbenitez/uptasknodejs.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "MVC"
+  ],
+  "author": "Jhonattan Benitez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonattanbenitez/uptasknodejs/issues"
+  },
+  "homepage": "https://github.com/jhonattanbenitez/uptasknodejs#readme"
+}
