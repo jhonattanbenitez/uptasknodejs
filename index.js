@@ -6,6 +6,9 @@ const path = require('path');
 
 const app = express();
 
+//donde cargar los archivos estáticos
+app.use(express.static('public'));
+
 //habilitar pug
 app.set('view engine', 'pug')
 
@@ -13,9 +16,6 @@ app.set('view engine', 'pug')
 app.set('views', path.join(__dirname, './views'));
 
 app.use('/', routes()); 
-
-
-
 
 app.listen(3000);
 
